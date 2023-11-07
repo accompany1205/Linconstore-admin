@@ -214,7 +214,7 @@ const UserTable: React.FC<IAdminUser> = ({ users, handleRefetch }) => {
                         placeholder="blur"
                         blurDataURL={"https://via.placeholder.com/300.png/09f/fff"}
                         src={order.productId?.photo[0]}
-                        alt={"image of Happy"}
+                        alt={"item image "}
                       />
                       <Stack>
                         <Typography fontSize={12}>ID: {order.productId?._id}</Typography>

@@ -47,7 +47,7 @@ const Permission = () => {
                         placeholder="blur"
                         blurDataURL={"https://via.placeholder.com/300.png/09f/fff"}
                         src={"https://res.cloudinary.com/linconstore-test/image/upload/f_auto,q_auto/v1/web-asset_2023-11-07_17_35/vicywtaha5kl2mxr1raj"}
-                        alt={"image of Happy"}
+                        alt={"item image "}
                     />
                     <Stack gap={5}>
                         <Typography fontSize={14}>

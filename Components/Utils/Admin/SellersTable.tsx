@@ -231,7 +231,7 @@ const SellersTable: React.FC<IAdminSeller> = ({ sellers, handleRefetch }) => {
                         placeholder="blur"
                         blurDataURL={"https://via.placeholder.com/300.png/09f/fff"}
                         src={product.photo[0]}
-                        alt={"image of Happy"}
+                        alt={"item image "}
                       />
                       <Stack>
                         <Typography fontSize={12}>ID: {product._id}</Typography>

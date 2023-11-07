@@ -153,7 +153,7 @@ const RefundTable: React.FC<IRefundTable> = ({ refunds, refetch, setOpenChat }) 
                     placeholder="blur"
                     blurDataURL={"https://via.placeholder.com/300.png/09f/fff"}
                     src={selectedRefund?.productId.photo[0]}
-                    alt={"image of Happy"}
+                    alt={"item image "}
                   />
                   <Stack>
                     <Typography fontSize={12}>ID: {selectedRefund?.productId._id}</Typography>
